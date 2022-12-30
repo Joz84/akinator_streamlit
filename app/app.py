@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.markdown("# Akinator")
+st.markdown(f"# Akinator : la clé : {st.secrets.api_key}")
 
 st.image("https://fr.akinator.com/bundles/elokencesite/images/akitudes_670x1096/defi.png", width=200)
 
